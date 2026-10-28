@@ -75,7 +75,27 @@ const today = new Date();
 const daysUntil = Math.ceil(
   (eventDate - today) / (1000 * 60 * 60 * 24)
 );
-
+<nav
+  style={{
+    position: "sticky",
+    top: 0,
+    background: "white",
+    padding: "15px",
+    borderRadius: "12px",
+    marginBottom: "20px",
+    display: "flex",
+    gap: "15px",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    zIndex: 100,
+  }}
+>
+  <a href="#willkommen">❤️ Willkommen</a>
+  <a href="#programm">📅 Programm</a>
+  <a href="#zusage">🙋 Zusage</a>
+  <a href="#teilnehmer">❤️ Wer ist dabei?</a>
+  <a href="#fotos">📷 Fotos</a>
+</nav>
   return (
     <div
       style={{
@@ -156,7 +176,7 @@ wochenende`}
 </div>
 
       {/* Willkommen */}
-      <div className="card">
+      <div className="card" id="willkommen">
         <h2>❤️ Willkommen</h2>
 
         <p>
@@ -229,7 +249,7 @@ wochenende`}
       </div>
 
       {/* Programm */}
-      <h2>📅 Programm</h2>
+      <h2 id="programm">📅 Programm</h2>
 
       <div className="card">
         <h3>🏔️ Freitag, 22. Jänner</h3>
@@ -267,7 +287,7 @@ wochenende`}
 
       {/* RSVP */}
       <div className="card">
-        <h2>🙋 Bist du dabei?</h2>
+        <h2 id="zusage">🙋 Bist du dabei?</h2>
 
         <p>
           <strong>
@@ -377,7 +397,7 @@ selectedParticipant.status !== "offen" ? (
 
       {/* Teilnehmer */}
       <div className="card">
-        <h2>❤️ Wer ist dabei?</h2>
+        <h2 id="teilnehmer">❤️ Wer ist dabei?</h2>
 <div
   style={{
     display: "flex",
@@ -476,7 +496,7 @@ selectedParticipant.status !== "offen" ? (
 
       {/* Fotos */}
       <div className="card">
-        <h2>📷 Fotos & Erinnerungen</h2>
+        <h2 id="fotos">📷 Fotos & Erinnerungen</h2>
 
         <p>
           Damit wir die schönsten Momente nicht nur im Kopf behalten,
