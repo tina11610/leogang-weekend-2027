@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: #f3f4f6;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  text-align: left;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card p {
+  margin-bottom: 15px;
+}
+
+.yesButton {
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.noButton {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
