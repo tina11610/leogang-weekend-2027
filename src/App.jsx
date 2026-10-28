@@ -92,7 +92,7 @@ const daysUntil = Math.ceil(
     backgroundSize: "cover",
     backgroundPosition: "center",
     borderRadius: "24px",
-    padding: "90px 40px",
+    padding: "60px 30px",
     color: "white",
     marginBottom: "30px",
     position: "relative",
@@ -113,15 +113,19 @@ const daysUntil = Math.ceil(
       zIndex: 1,
     }}
   >
-    <h1
-      style={{
-        color: "white",
-        margin: 0,
-        fontSize: "3rem",
-      }}
-    >
-      🎿🍻🥳 Geburtstagswochenende
-    </h1>
+  <h1
+  style={{
+    color: "white",
+    margin: 0,
+    fontSize: "clamp(2rem, 5vw, 3rem)",
+    lineHeight: "1.1",
+    whiteSpace: "pre-line",
+  }}
+>
+{`🎿🍻🥳
+Geburtstags-
+wochenende`}
+</h1>
 
     <h2
       style={{
