@@ -104,6 +104,28 @@ const daysUntil = Math.ceil(
         padding: "30px",
       }}
     >
+      <nav
+  style={{
+    position: "sticky",
+    top: "10px",
+    background: "white",
+    padding: "15px",
+    borderRadius: "12px",
+    marginBottom: "20px",
+    display: "flex",
+    gap: "15px",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    zIndex: 100,
+    boxShadow: "0 2px 10px rgba(0,0,0,0.08)",
+  }}
+>
+  <a href="#willkommen">❤️ Willkommen</a>
+  <a href="#programm">📅 Programm</a>
+  <a href="#zusage">🙋 Zusage</a>
+  <a href="#teilnehmer">❤️ Wer ist dabei?</a>
+  <a href="#fotos">📷 Fotos</a>
+</nav>
         {/* Hero */}
       <div
   style={{
@@ -157,12 +179,14 @@ wochenende`}
     </h2>
 
     <p
-      style={{
-        fontSize: "1.2rem",
-      }}
-    >
-      22. bis 24. Jänner 2027
-      <p
+  style={{
+    fontSize: "1.2rem",
+  }}
+>
+  22. bis 24. Jänner 2027
+</p>
+
+<p
   style={{
     marginTop: "15px",
     fontSize: "1.1rem",
@@ -171,7 +195,6 @@ wochenende`}
 >
   ⏳ Noch {daysUntil} Tage bis Leogang
 </p>
-    </p>
   </div>
 </div>
 
