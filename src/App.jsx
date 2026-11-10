@@ -1,73 +1,9 @@
-import { useEffect, useState } from "react";
-import { supabase } from "./supabase";
-
 export default function App() {
 
-  const [participants, setParticipants] = useState([]);
-  const [selectedPerson, setSelectedPerson] = useState("");
   const selectedParticipant = participants.find(
   (p) => p.name === selectedPerson
 );
-useEffect(() => {
-  loadParticipants();
-}, []);
 
-async function loadParticipants() {
-  console.log("loadParticipants aufgerufen");
-
-  const { data, error } = await supabase
-    .from("participants")
-    .select("*")
-    .order("name");
-
-  console.log("Anzahl Teilnehmer:", data?.length);
-
-  if (!error) {
-    setParticipants(data);
-  }
-}
-
-async function updateStatus(status) {
-  if (!selectedPerson) {
-    alert("Bitte zuerst deinen Namen auswählen.");
-    return;
-  }
-
-  const participant = participants.find(
-  (p) => p.name === selectedPerson
-);
-
-if (participant?.status !== "offen") {
-  alert(
-    "Du hast bereits geantwortet. Änderungen bitte direkt mit Tina abstimmen ❤️"
-  );
-  return;
-}
-
-  const { error } = await supabase
-    .from("participants")
-    .update({ status })
-    .eq("name", selectedPerson);
-
-  if (!error) {
-    await loadParticipants();
-
-    alert(
-      "Danke für deine Rückmeldung ❤️"
-    );
-  }
-}
-const dabei = participants.filter(
-  (p) => p.status === "Dabei"
-);
-
-const abgesagt = participants.filter(
-  (p) => p.status === "Abgesagt"
-);
-
-const offen = participants.filter(
-  (p) => p.status === "offen"
-);
 const eventDate = new Date("2027-01-22");
 
 const today = new Date();
