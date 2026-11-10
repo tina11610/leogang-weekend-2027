@@ -1,8 +1,5 @@
 export default function App() {
 
-  const selectedParticipant = participants.find(
-  (p) => p.name === selectedPerson
-);
 
 const eventDate = new Date("2027-01-22");
 
@@ -11,27 +8,7 @@ const today = new Date();
 const daysUntil = Math.ceil(
   (eventDate - today) / (1000 * 60 * 60 * 24)
 );
-<nav
-  style={{
-    position: "sticky",
-    top: 0,
-    background: "white",
-    padding: "15px",
-    borderRadius: "12px",
-    marginBottom: "20px",
-    display: "flex",
-    gap: "15px",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    zIndex: 100,
-  }}
->
-  <a href="#willkommen">❤️ Willkommen</a>
-  <a href="#programm">📅 Programm</a>
-  <a href="#zusage">🙋 Zusage</a>
-  <a href="#teilnehmer">❤️ Wer ist dabei?</a>
-  <a href="#fotos">📷 Fotos</a>
-</nav>
+
   return (
     <div
       style={{
