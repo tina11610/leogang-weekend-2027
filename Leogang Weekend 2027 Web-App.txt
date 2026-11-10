@@ -1,0 +1,43 @@
+Leogang Weekend 2027 Web-App
+
+Status:
+
+✅ Node.js installiert
+✅ React/Vite-Projekt erstellt
+✅ App läuft lokal auf localhost:5173
+✅ Layout angepasst
+✅ Supabase-Projekt erstellt
+✅ Tabelle participants angelegt
+✅ Teilnehmer importiert
+✅ RLS konfiguriert
+✅ SELECT funktioniert
+✅ UPDATE funktioniert
+✅ Teilnehmer werden aus Supabase geladen
+✅ Status "offen" wird angezeigt
+✅ Zusage/Absage wird gespeichert
+
+Offen:
+
+⬜ Dropdown statt Namenseingabe
+⬜ Teilnehmer gruppieren:
+   - Dabei
+   - Abgesagt
+   - Offen
+
+⬜ OneDrive-Fotoalbum verlinken
+⬜ Hero-Bild für Leogang
+⬜ Design verfeinern
+⬜ Veröffentlichung auf Vercel
+
+Projektordner:
+C:\Users\I566040\leogang-weekend
+
+
+Vercel Recovery codes:
+
+40fa66bc-0a16038f
+bdacf7a6-4855921f
+3d9065f0-eb7c4f10
+ee9ddcab-2b594a90
+b8159b1a-00ba6874
+0442eee2-42fdffa6
