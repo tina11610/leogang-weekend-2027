@@ -278,9 +278,9 @@ wochenende`}
         <h3>🏔️ Freitag, 22. Jänner</h3>
         <ul>
           <li>15:00 Uhr Zimmerbezug</li>
-          <li>16:00 Uhr Treffpunkt an der Bar</li>
-          <li>18:00 Uhr Abendessen beim Hüttwirt</li>
-          <li>Danach gemütlicher Ausklang 🥂</li>
+          <li>16:30 Uhr Treffpunkt an der Bar</li>
+          <li>18:30 Uhr Abendessen beim Hüttwirt</li>
+          <li>Danach gemütlicher Ausklang im mama thresl 🥂</li>
         </ul>
       </div>
 
@@ -288,9 +288,10 @@ wochenende`}
         <h3>🎿 Samstag, 23. Jänner</h3>
         <ul>
           <li>Frühstück bis 11:00 Uhr ☕</li>
-          <li>13:00 Uhr Hendlfischerei 🐔</li>
+          <li>14:00 Uhr Hendlfischerei 🐔</li>
           <li>16:00 Uhr Après Ski im B3 🍻</li>
-          <li>18:00–20:00 Uhr BBQ im mama thresl 🔥</li>
+          <li>oder wer mag ab in die Sauna im mama thresl 🧘</li>
+          <li>20:15 Uhr BBQ im mama thresl 🔥</li>
           <li>Gemeinsamer Ausklang am Abend</li>
         </ul>
       </div>
