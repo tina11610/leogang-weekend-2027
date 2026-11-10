@@ -120,10 +120,7 @@ const daysUntil = Math.ceil(
     boxShadow: "0 2px 10px rgba(0,0,0,0.08)",
   }}
 >
-  <a href="#willkommen">❤️ Willkommen</a>
   <a href="#programm">📅 Programm</a>
-  <a href="#zusage">🙋 Zusage</a>
-  <a href="#teilnehmer">❤️ Wer ist dabei?</a>
   <a href="#fotos">📷 Fotos</a>
 </nav>
         {/* Hero */}
